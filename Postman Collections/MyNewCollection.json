@@ -36,14 +36,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "the_path?x1=some&y7=dfsds&cc=cc5&4p=p4&5d=dd",
+					"raw": "the_path?x1=some77&y7=dfsds&cc=cc5&4p=p4&5d=dd",
 					"host": [
 						"the_path"
 					],
 					"query": [
 						{
 							"key": "x1",
-							"value": "some"
+							"value": "some77"
 						},
 						{
 							"key": "y7",
@@ -59,7 +59,31 @@
 						},
 						{
 							"key": "5d",
-							"value": "dd",
+							"value": "dd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Very new",
+			"id": "479b8aec-2757-4ec6-80c7-7f9939577c84",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "very new?sd=d",
+					"host": [
+						"very new"
+					],
+					"query": [
+						{
+							"key": "sd",
+							"value": "d",
 							"type": "text"
 						}
 					]
