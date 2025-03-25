@@ -1,19 +1,20 @@
 {
 	"info": {
 		"_postman_id": "e8979d53-53e5-4ed3-8795-0ae28756c760",
-		"name": "New Collection",
+		"name": "My New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "New Request2",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"id": "107b85b2-6967-44d2-8409-a8760bfa3637",
 						"exec": [
-							"some script"
+							"some script\r",
+							"added string"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -34,9 +35,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "some change?x1=some&y7=dfsds",
+					"raw": "the_path?x1=some&y7=dfsds",
 					"host": [
-						"some change"
+						"the_path"
 					],
 					"query": [
 						{
