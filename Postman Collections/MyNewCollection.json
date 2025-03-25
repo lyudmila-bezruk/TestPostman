@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "b04bc536-8726-4655-84fb-9970c357f96c",
+		"name": "My New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4a3d3a5c-d80a-40af-9766-7b33df4e01d0",
+						"exec": [
+							"some script\r",
+							"added string\r",
+							"script 3"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "e3e4594c-06ed-4d6a-a8a2-b52202880fa7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "some token"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "the_path?x1=some&y7=dfsds&cc=cc&4p=p4",
+					"host": [
+						"the_path"
+					],
+					"query": [
+						{
+							"key": "x1",
+							"value": "some"
+						},
+						{
+							"key": "y7",
+							"value": "dfsds"
+						},
+						{
+							"key": "cc",
+							"value": "cc"
+						},
+						{
+							"key": "4p",
+							"value": "p4",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
