@@ -36,7 +36,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "the_path?x1=some&y7=dfsds&cc=cc&4p=p4",
+					"raw": "the_path?x1=some&y7=dfsds&cc=cc5&4p=p4&5d=dd",
 					"host": [
 						"the_path"
 					],
@@ -51,11 +51,15 @@
 						},
 						{
 							"key": "cc",
-							"value": "cc"
+							"value": "cc5"
 						},
 						{
 							"key": "4p",
-							"value": "p4",
+							"value": "p4"
+						},
+						{
+							"key": "5d",
+							"value": "dd",
 							"type": "text"
 						}
 					]
