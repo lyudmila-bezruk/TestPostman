@@ -15,7 +15,7 @@
 						"exec": [
 							"some script\r",
 							"added string\r",
-							"script 3"
+							"script 35"
 						],
 						"type": "text/javascript",
 						"packages": {}
